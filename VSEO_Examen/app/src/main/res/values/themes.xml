@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculadora" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+<style name="Widget.AppCompat.EditText_m" parent="Widget.AppCompat.EditText">
+    <item name="android:gravity">right</item>
+    <item name="android:textSize">50dp</item>
+    <item name="height">140dp</item>
+    <item name="android:paddingRight">8dp</item>
+    <item name="android:textAlignment">textEnd</item>
+    <item name="backgroundTint">@android:color/transparent</item>
+</style>
+
+    <style name="Widget.AppCompat.TextView_m" parent="Widget.AppCompat.TextView">
+        <item name="android:gravity">right</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="height">100dp</item>
+    </style>
+    <style name="Widget.AppCompat.Button_m" parent="Widget.AppCompat.Button">
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:shape">rectangle</item>
+        <item name="iconGravity">textEnd</item>
+        <item name="iconSize">18dp</item>
+        <item name="iconPadding">0dp</item>
+        <item name="iconTint">@color/black</item>
+    </style>
+    <style name="Widget.AppCompat.Button_c" parent="Widget.AppCompat.Button">
+        <item name="colorPrimary">@color/gris_blanco</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Widget.AppCompat.Button_cp" parent="Widget.AppCompat.Button">
+        <item name="colorPrimary">@color/gris_blanco2</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    <style name="Widget.AppCompat.Button_ce" parent="Widget.AppCompat.Button">
+        <item name="colorPrimary">@color/black_m</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Widget.AppCompat.Button_cl" parent="Widget.AppCompat.Button">
+        <item name="colorPrimary">@color/gris_oscuro4</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="abajo" parent="Theme.Calculadora">
+        <item name="android:background">@drawable/rectangulo_gris</item>
+    </style>
+    <style name="Theme.Calculadora" parent="Base.Theme.Calculadora" >
+        <item name="editTextStyle">@style/Widget.AppCompat.EditText_m</item>
+        <item name="colorPrimaryDark">@color/black_m</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorAccent">@color/acc</item>
+        <item name="android:textViewStyle">@style/Widget.AppCompat.TextView_m</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

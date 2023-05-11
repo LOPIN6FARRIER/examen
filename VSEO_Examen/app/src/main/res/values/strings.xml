@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="my_spinner_items">
+        <item>Decimal</item>
+        <item>Binario</item>
+        <item>Octal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+    <string-array name="grados">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string-array name="unidades_items">
+        <item>Kilometro</item>
+        <item>Metro</item>
+        <item>Decimetro</item>
+        <item>Centimetro</item>
+        <item>Micrometro</item>
+        <item>Milimetro</item>
+        <item>Nanometro</item>
+        <item>Picometro</item>
+        <item>Año Luz</item>
+        <item>Parsec</item>
+        <item>Distancia Lunar</item>
+        <item>Unidad Astronomica</item>
+        <item>Pulgada</item>
+        <item>Milla</item>
+        <item>Pie</item>
+        <item>Yarda</item>
+        <item>Milla Nautica</item>
+        <item>Braza</item>
+        <item>Furlong</item>
+    </string-array>
+</resources>
